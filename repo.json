@@ -1,0 +1,8 @@
+{
+  "name": "SaPrevodom",
+  "description": "SaPrevodom.online - filmovi i serije sa hrvatskim/srpskim prevodom",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/gabac198-cmd/saprevodom-repo/main/plugins.json"
+  ]
+}
