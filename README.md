@@ -1,9 +1,9 @@
 # CloudStream repo — SaPrevodom
 
-Repozitorij za CloudStream s pluginom **SaPrevodom** (filmovi i serije sa prevodom).
+Flat repo s pluginom **SaPrevodom**.
 
-## Datoteke
-- `repo.json`    – manifest repozitorija (ovaj link upisuješ u CloudStream)
+## Datoteke (flat repo)
+- `repo.json`    – manifest repozitorija (ovaj link se upisuje u CloudStream)
 - `plugins.json` – popis dodataka
 - `SaPrevodomProvider.cs3` – sam plugin
 
@@ -25,7 +25,6 @@ https://raw.githubusercontent.com/gabac198-cmd/saprevodom-repo/main/repo.json
 4. Zalijepi link iznad i potvrdi.
 
 ## Napomena
-Plugin je veličine 41212 bajtova, a SHA-256 hash mora odgovarati vrijednosti
-upisanoj u `plugins.json`, inače CloudStream odbije instalaciju.
-
-Ovaj repozitorij koristi **verziju 3**.
+- Verzija: **1**
+- Veličina: **37371 bajtova**
+- SHA-256 mora odgovarati vrijednosti u `plugins.json`, inače CloudStream odbije instalaciju.
