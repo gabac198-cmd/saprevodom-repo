@@ -1,0 +1,29 @@
+FILMOVIPLEX v12 - UPUTSTVO
+
+Sto je novo (v12):
+- ISPRAVLJEN POPIS EPIZODA za serije.
+- Prije se za seriju ucitavala SAMO JEDNA epizoda (obicno S1 E1).
+- Sada se ucitavaju SVE sezone i SVE epizode te serije.
+- Popis se dohvaca iz istog izvora koji koristi i sama stranica,
+  pa se epizode prikazuju uredno (S1 E1, S1 E2, ... S2 E1, ...).
+- Ako popis iz bilo kojeg razloga nije dostupan, dodatak se vraca
+  na staro ponasanje (nista se ne kvari).
+
+NEPROMIJENJENO:
+- Titlovi rade TOCNO kao u v11 (nista nije dirano).
+- Izvor titlova: OpenSubtitles (REST, bez kljuca) + titlovi sa stranice.
+- Prvo se trazi po IMDb ID-u; ako ga nema, po nazivu.
+- Hrvatski i srpski titl se dohvacaju PARALELNO (brze).
+- Najvise jedan titl po jeziku; engleski i bosanski se preskacu.
+- UTF-8 titl ima prednost, potom broj preuzimanja; cirilica se preskace.
+- Najbolji dostupni titl (HR, pa SR) dobiva oznaku "Croatian (HR)" i
+  uklapa se sam (postavka Auto-Select Language = Croatian).
+- Nazivi dodataka i izgled su nepromijenjeni.
+
+Instalacija:
+1) Ukloni staru verziju dodatka (ako je instalirana).
+2) Postavke -> Dodaci -> Dodaj spremiste (repo) i zalijepi link do plugins.json.
+3) Filmoviplex se pojavi u popisu dodataka - instaliraj.
+4) U postavkama plejera: jezik titlova = Croatian, ukljuceno automatsko biranje titla.
+
+Napomena: reprodukciju nije bilo moguce testirati u ovom okruzenju.

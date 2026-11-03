@@ -1,0 +1,6 @@
+{
+  "name": "Filmoviplex repo",
+  "description": "Filmoviplex dodatak za CloudStream (HR/SR/BS)",
+  "manifestVersion": 1,
+  "pluginLists": ["https://raw.githubusercontent.com/gabac198-cmd/filmoviplex-repo/main/plugins.json"]
+}

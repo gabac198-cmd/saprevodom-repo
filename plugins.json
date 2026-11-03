@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Filmoviplex",
+    "internalName": "FilmoviplexPlugin",
+    "description": "Filmoviplex.net - filmovi i serije sa prevodom (v12: sve sezone i sve epizode serija; titlovi nepromijenjeni kao u v11)",
+    "url": "https://raw.githubusercontent.com/gabac198-cmd/filmoviplex-repo/main/Filmoviplex.cs3",
+    "iconUrl": "https://raw.githubusercontent.com/gabac198-cmd/filmoviplex-repo/main/icon.png",
+    "version": 12,
+    "apiVersion": 1,
+    "fileHash": "sha256-34801d472734221a7d7e1120b069bfab64614c497bfdde70683e43a3bce0df63",
+    "fileSize": 69917,
+    "status": 1,
+    "repositoryUrl": "https://raw.githubusercontent.com/gabac198-cmd/filmoviplex-repo/main/repo.json",
+    "authors": ["TeraAI"],
+    "tvTypes": ["Movie", "TvSeries"]
+  }
+]
