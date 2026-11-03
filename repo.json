@@ -1,6 +1,8 @@
 {
-  "name": "Filmoviplex repo",
-  "description": "Filmoviplex dodatak za CloudStream (HR/SR/BS)",
+  "name": "SaPrevodom HR test repo",
+  "description": "SaPrevodom.online - test repozitorij (v34 - iz glavnog izbornika uklonjena stavka 'Naučna fantastika - serije'; ostaje 6 stavki)",
   "manifestVersion": 1,
-  "pluginLists": ["https://raw.githubusercontent.com/gabac198-cmd/filmoviplex-repo/main/plugins.json"]
+  "pluginLists": [
+    "https://raw.githubusercontent.com/gabac198-cmd/saprevodom-hr-test-repo/main/plugins.json"
+  ]
 }
