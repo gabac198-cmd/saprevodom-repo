@@ -1,0 +1,9 @@
+{
+  "name": "Filmoviplex",
+  "description": "Filmoviplex.net - filmovi i serije sa prevodom (Hrvatski)",
+  "author": "TeraAI",
+  "version": 11,
+  "pluginClassName": "recloudstream.filmoviplex.FilmoviplexPlugin",
+  "repositoryUrl": "https://raw.githubusercontent.com/gabac198-cmd/filmoviplex-repo/main/repo.json",
+  "tvTypes": ["Movie", "TvSeries"]
+}

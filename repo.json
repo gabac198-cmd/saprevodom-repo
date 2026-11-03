@@ -1,8 +1,6 @@
 {
-  "name": "SaPrevodom",
-  "description": "SaPrevodom.online - filmovi i serije sa hrvatskim/srpskim prevodom",
+  "name": "Filmoviplex repo",
+  "description": "Filmoviplex dodatak za CloudStream (HR/SR/BS)",
   "manifestVersion": 1,
-  "pluginLists": [
-    "https://raw.githubusercontent.com/gabac198-cmd/saprevodom-repo/main/plugins.json"
-  ]
+  "pluginLists": ["https://raw.githubusercontent.com/gabac198-cmd/filmoviplex-repo/main/plugins.json"]
 }

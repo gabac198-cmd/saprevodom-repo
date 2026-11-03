@@ -1,23 +1,17 @@
 [
   {
-    "iconUrl": "https://www.google.com/s2/favicons?domain=saprevodom.online&sz=128",
+    "name": "Filmoviplex",
+    "internalName": "FilmoviplexPlugin",
+    "description": "Filmoviplex.net - filmovi i serije sa prevodom (v11: provjereni algoritam titlova - OpenSubtitles REST, IMDb pa naslov, hrvatski i srpski paralelno, UTF-8 prednost)",
+    "url": "https://raw.githubusercontent.com/gabac198-cmd/filmoviplex-repo/main/Filmoviplex.cs3",
+    "iconUrl": "https://raw.githubusercontent.com/gabac198-cmd/filmoviplex-repo/main/icon.png",
+    "version": 11,
     "apiVersion": 1,
-    "repositoryUrl": "",
-    "fileSize": 37371,
-    "fileHash": "sha256-4041d2efaf00c089d1b001ca7ec201519e6d87c8da8d75b01d6e037374b3c65d",
+    "fileHash": "sha256-a6a93157e100f3bb65e50ce3c6da89db0080a0d4a51f85afc2168bef2c318654",
+    "fileSize": 66188,
     "status": 1,
-    "language": "hr",
-    "authors": [
-      "SaPrevodom"
-    ],
-    "tvTypes": [
-      "Movie",
-      "TvSeries"
-    ],
-    "version": 1,
-    "internalName": "SaPrevodomProvider",
-    "description": "SaPrevodom.online - filmovi i serije sa hrvatskim/srpskim prevodom",
-    "url": "https://raw.githubusercontent.com/gabac198-cmd/saprevodom-repo/main/SaPrevodomProvider.cs3",
-    "name": "SaPrevodomProvider"
+    "repositoryUrl": "https://raw.githubusercontent.com/gabac198-cmd/filmoviplex-repo/main/repo.json",
+    "authors": ["TeraAI"],
+    "tvTypes": ["Movie", "TvSeries"]
   }
 ]
